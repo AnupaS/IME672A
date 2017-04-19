@@ -43,4 +43,4 @@ confusionMatrix(pred, test$TARGET)
 predtest <- predict(model, tst, type = "response")
 
 tst$target <- predtest
-write.csv(tst, "D:/Acads/8th sem/ime672/final/predictedfile_decisiontree.csv")
+write.csv(tst, "D:/Acads/8th sem/ime672/final/predictedfile_svm.csv")
